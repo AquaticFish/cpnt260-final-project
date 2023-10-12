@@ -1,0 +1,16 @@
+
+p {
+  font-family: 'Nabla', Arial, Helvetica, cursive;
+  font-size: clamp(64px, 10vw, 128px);
+  
+  padding-top: 20vh;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.144);
+
+  display: flex;
+  justify-content: center;
+ 
+}
+
+

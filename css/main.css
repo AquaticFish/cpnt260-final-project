@@ -1,0 +1,72 @@
+
+
+header > * { 
+   flex: auto;
+   align-items: center;
+}
+/*Menu bar */
+
+nav ul, input {
+  display: none;
+}
+
+input:checked + ul {
+  display: block;
+}
+
+@media (min-width: 50rem) {
+  label {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+/*when it reach 50rem width, the label aka menu will have no checkbox and the nav ul will be in */
+
+
+
+body {
+  margin: 0;
+}
+
+nav ul {
+  background-color: black;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+/* nav bar */
+
+
+
+a {
+  text-align: center;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 1rem;
+  display: block;
+}
+/*box of nav*/
+
+a:hover {
+  background-color: darkslategrey;
+  color: white;
+}
+/*Hover effects */
+
+
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
